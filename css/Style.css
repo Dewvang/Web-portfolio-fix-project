@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*จัดกึ่งกลางและเซ้ทรูปแบบเริ่มต้นทั้งหมด*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 1160px;  /*ความสูงของเฮดเดอร์*/
+    background: url(/img/designer_1.svg) no-repeat; /*ใส่ BG เฮดเดอร์*/ /*no-repeat ไม่ต้องใส่รูปซ้ำกันเป็นแพทเทิร์น*/
+    background-position: right bottom 50px; /*จัดตำแหน่ง BG*/
+}
+
+.container {
+    width: 1110px; /*ความกว่าของคอนเทนเนอร์ที่วัดมา*/
+    margin: 0 auto; /* จัดกึ่งกลาง*/
+}
+
+nav {
+    height: 60px;
+    display: flex; /*จัดให้ไอเทมมาต่อกันเป็นแนวนอน*/
+    justify-content: space-between; /* จัดให้ไอเทมแยกกันเรียงแนวนอน*/
+    align-items: center; /*จัดให้ไอเทมอยู่ตรงกลาง*/
+}
+
+nav ul {
+    width: 245px;
+    height: 24;
+    display: flex; /*จัดให้ list ต่อกันเป็นแนวนอน*/
+    list-style: none; /*ลบจุดหน้า list*/
+    justify-content: space-between; /*จัดให้แต่ละ list มีระยะห่าง*/
+}
+
+nav ul li a{
+    color: #505F98;
+    text-decoration: none; /*ลบเส้นใต้*/
+}
+
+.logo {
+    text-align: center; 
+}
+
+.logo h1{
+color: #37447E;
+font-size: 26px;
+font-weight: bold;
+}
+
+.nav-btn{
+    background-color: #111B47;
+    text-align: center;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-btn a{
+    padding: 10px 57px; 
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+text-align: center;
+
+    
+}
+
+.header-info{
+    margin-top: 250px;
+    width: 540px;
+
+}
+
+.header-title h1{
+    color: #091133;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.header-content p{
+    margin-top: 30px;
+    color: #505F98;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+
+
+}
+
+.header-btn {
+    display: flex;
+    margin-top: 65px;
+
+}
+
+.header-btn a{
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 30px;
+    padding: 13px 40px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.header-btn a:hover{
+background-color: #111B47;
+color: white;
+}
+
+
+.powerful {
+    margin-top:500px ;
+}
+
+.powerful-con {
+    display: flex;    
+    width: 1110px;
+    justify-content: space-between;
+}
+
+.powerful-info {
+margin-top: 56px;
+}
+
+
+
+.pw-title{
+    width: 540px;
+    height: 48px;
+}
+
+.pw-title h2{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #091133;
+}
+
+.pw-p{
+    margin-top: 20px;
+    width: 540px;
+    height: 140px;
+}
+
+.pw-p p{ 
+    font-size: 16px;
+    color: #6f7cb2;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.pw-box{
+    display: flex;
+    margin-top: 90px;
+
+    justify-content: space-between;
+}
+
+.pw-box .pw-item{
+
+    width: 255px;
+    height: 138px;
+}
+
+.pw-box .pw-item h3{
+    width: 255px;
+    height: 26px;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #091133;
+}
+
+.pw-box .pw-item p{
+    width: 255px;
+    height: 54px;
+    font-size: 12px;
+    color: #5d6970;
+    margin-top: 10px;
+
+}
+
