@@ -12,11 +12,13 @@ header {
     height: 1160px;  /*ความสูงของเฮดเดอร์*/
     background: url(/img/designer_1.svg) no-repeat; /*ใส่ BG เฮดเดอร์*/ /*no-repeat ไม่ต้องใส่รูปซ้ำกันเป็นแพทเทิร์น*/
     background-position: right bottom 50px; /*จัดตำแหน่ง BG*/
+
 }
 
 .container {
     width: 1110px; /*ความกว่าของคอนเทนเนอร์ที่วัดมา*/
     margin: 0 auto; /* จัดกึ่งกลาง*/
+    
 }
 
 nav {
@@ -40,7 +42,8 @@ nav ul li a{
 }
 
 .logo {
-    text-align: center; 
+    text-align: center;
+    margin-right: 70px; 
 }
 
 .logo h1{
@@ -66,7 +69,7 @@ font-weight: bold;
     color: white;
     font-weight: bold;
     display: inline-block;
-text-align: center;
+    text-align: center;
 
     
 }
@@ -90,8 +93,6 @@ text-align: center;
     font-size: 18px;
     line-height: 30px;
     font-weight: bold;
-
-
 }
 
 .header-btn {
@@ -119,12 +120,12 @@ color: white;
 
 
 .powerful {
-    margin-top:500px ;
+    margin-top:100px ;
+
 }
 
 .powerful-con {
     display: flex;    
-    width: 1110px;
     justify-content: space-between;
 }
 
@@ -187,7 +188,263 @@ margin-top: 56px;
     height: 54px;
     font-size: 12px;
     color: #5d6970;
-    margin-top: 10px;
+    
 
 }
+
+.light {  
+    height: 1600px;
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px;
+    z-index: 10;
+    position: relative;
+    background-color: white;
+}
+
+.container-light{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.box-img {
+
+    width: auto;
+    height: auto;
+    align-self: center;
+    
+}
+
+
+
+.text-light {
+    width: 445px;
+    height: auto;
+
+    align-self: center;
+}
+
+.text-light h3{
+    width: 445px;
+    height: 48px;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #091133;
+}
+
+.text-light p{
+    margin-top: 15px;
+    width: 445px;
+    height: 166px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #6f7cb2;
+}
+
+.text-light .purchase-btn{
+    margin-top: 50px;
+    
+
+
+}
+
+.text-light .purchase-btn a{
+    padding: 10px 40px;
+    border: 2px solid black;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #091133;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;  
+}
+
+
+.text-light .purchase-btn a:hover{
+    background-color: #111B47;
+    color: white;
+}
+
+
+.bg-bottom{ 
+    background-color: #e7ecff;
+    height: 800px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+
+}
+
+.bottom {
+    margin-top: 125px;
+}
+
+.box-text-bottom{
+    height: 500px;
+    text-align: center;
+    
+}
+
+
+.text-bottom h3{
+    color: #091133;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.text-bottom p{
+    color: #6f7cb2;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 600px;
+    text-align: center;
+    display: inline-block;
+    
+
+}
+
+.box-40us {
+    margin-top: 30px;
+}
+
+.box-40us h2{
+    font-size: 50px;
+    color: #222f65;
+    line-height: 66px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.box-40us p{
+    color: #37447E;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.box-oneprice{
+    margin-top: 65px;
+}
+
+.box-oneprice p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #5d6970;
+    font-weight: bold;
+}
+
+
+.puchase-now-btn{
+    margin-top: 50px;
+}
+
+
+.puchase-now-btn a{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 10px 50px;
+}
+
+.puchase-now-btn a:hover{
+    background-color: #111B47;
+    color: white;
+}
+
+
+footer{
+    background-color: #929ECC;
+}
+
+.box-up{
+
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    align-items: center;
+}
+
+.logo-footer{
+    margin-right: 35px;
+}
+
+.logo-footer h1{
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+    font-weight: bold;
+}
+
+.yourcom{
+    text-align: center;
+}
+
+.yourcom p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #CDD1D4;
+    font-weight: bold;
+}
+
+
+.box-up a{
+    border: 2px solid black;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 2px;
+}
+
+.box-up a:hover{
+    background-color:#111B47 ;
+    color: white;
+}
+
+
+.box-low{
+    border-top: 1px solid #CDD1D4 ; 
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    align-items: center;
+}
+
+.box-low ul{
+    width: 245px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.box-low ul li a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #CDD1D4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+
+
+
+
+
+
 
